@@ -17,6 +17,7 @@ public class POMtestcase01 extends BasePage {
 		// new BasePage().Logincheck();
 		// new BasePage().Logincheck().uname(Uname).pwd(pwd).submit();
 		new LoginPage().uname(Uname).pwd(pwd).submit();
+		System.out.println("Hi This is a sample output file");
 	}
 
 	@DataProvider(name = "DataDriver1")

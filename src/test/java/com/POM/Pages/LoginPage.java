@@ -18,6 +18,7 @@ public class LoginPage extends BasePage {
 
 	public LoginPage pwd(String pwd) {
 		driver.findElement(By.id("txtPassword")).sendKeys(pwd);
+		// hi hellow this a small change
 		return this;
 	}
 
